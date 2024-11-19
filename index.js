@@ -1,7 +1,7 @@
 document.getElementById("run-button").addEventListener("click", async () => {
   const contentDiv = document.getElementById("Content");
   
-  contentDiv.innerHTML = "Running Python code...";
+  contentDiv.innerHTML = "Running...";
 
   // Load Pyodide
   await loadPyodide();
